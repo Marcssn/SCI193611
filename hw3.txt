@@ -1,0 +1,46 @@
+
+สรุปเส้นทางและระยะทางรวม (Arad ไปยัง Vaslui)
+
+Breadth First Tree Search
+เส้นทาง Arad -> Sibiu -> Fagaras -> Bucharest -> Urziceni -> Vaslui
+ระยะทางรวม 677
+
+Depth First Tree Search
+เส้นทาง Arad -> Sibiu -> Craiova -> Pitesti -> Bucharest -> Urziceni -> Vaslui
+ระยะทางรวม 752
+
+Breadth First Search (Graph)
+เส้นทาง Arad -> Sibiu -> Fagaras -> Bucharest -> Urziceni -> Vaslui
+ระยะทางรวม 677
+
+Depth First Graph Search
+เส้นทาง Arad -> Sibiu -> Craiova -> Pitesti -> Bucharest -> Urziceni -> Vaslui
+ระยะทางรวม 752
+
+Best First Graph Search
+เส้นทาง ขึ้นอยู่กับฟังก์ชันการประเมิน f(n) (หากใช้ Path Cost g(n) ผลลัพธ์จะเหมือน UCS)
+ระยะทางรวม 645
+
+Uniform Cost Search (UCS)
+เส้นทาง Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucharest -> Urziceni -> Vaslui
+ระยะทางรวม 645 (Optimal)
+
+Depth Limited Search (DLS)
+เส้นทาง (กำหนด Depth Limit = 5): Arad -> Sibiu -> Fagaras -> Bucharest -> Urziceni -> Vaslui
+ระยะทางรวม 677
+
+Iterative Deepening Search
+เส้นทาง (พบที่ Depth = 5): Arad -> Sibiu -> Fagaras -> Bucharest -> Urziceni -> Vaslui
+ระยะทางรวม 677
+
+Greedy Best First Search
+เส้นทาง ต้องใช้ค่า Heuristic h(n) (ระยะทางเส้นตรงไปยัง Vaslui)
+ระยะทางรวม -
+
+A* Search
+เส้นทาง Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucharest -> Urziceni -> Vaslui
+ระยะทางรวม 645
+
+Recursive Best First Search
+เส้นทาง Arad -> Sibiu -> Rimnicu Vilcea -> Pitesti -> Bucharest -> Urziceni -> Vaslui
+ระยะทางรวม 645
